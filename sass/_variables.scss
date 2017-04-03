@@ -8,12 +8,6 @@ $pageFullWidth: 768px;
 	}
 }
 
-@mixin mediaMobile {
-	@media (min-width: #{$pageMobileWidth}) and (max-width: #{$pageFullWidth}) {
-		@content;
-	}
-}
-
 $headerFont: 'Quicksand', sans-serif;
 $bodyFont: 'Open Sans', sans-serif;
 $primaryColor: #52db9d;
