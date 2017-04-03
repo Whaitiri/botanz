@@ -1,5 +1,5 @@
 #headerContainer {
-	
+	width: $pageMobileWidth;
 }
 
 #headerLogo {
@@ -7,7 +7,7 @@
 }
 
 #headerLogoText {
-	
+	font-family: $headerFont;
 }
 
 #headerLogoImage {
