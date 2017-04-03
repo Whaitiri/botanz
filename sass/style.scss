@@ -12,12 +12,8 @@
 
 #masterContainer {
 	width: $pageMobileWidth;
-	height: 400px;
-	background-color: red;
-}
-
-@media #{$breakpointDesktop} {
-	#masterContainer {
+	
+	@include mediaDesktop {
 		width: $pageFullWidth;
 	}
 }
