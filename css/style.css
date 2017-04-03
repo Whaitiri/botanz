@@ -12,6 +12,14 @@
 .headerMenuItem {
   display: inline; }
 
-body {
+* {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+#masterContainer {
+  width: 400px; }
+  @media (min-width: 768px) {
+    #masterContainer {
+      width: 768px; } }

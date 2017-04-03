@@ -1,5 +1,14 @@
 $pageMobileWidth: 400px;
-$pageFullWidth: 1024px;
+$pageHeight: 720px; //for reference
+$pageFullWidth: 768px;
+
+@mixin mediaDesktop {
+	@media (min-width: #{$pageFullWidth}) {
+		@content;
+	}
+}
+
 $headerFont: 'Quicksand', sans-serif;
 $bodyFont: 'Open Sans', sans-serif;
 $primaryColor: #52db9d;
+
