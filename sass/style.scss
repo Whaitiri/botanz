@@ -2,3 +2,22 @@
 @import 'eventList';
 @import 'footer';
 @import 'header';
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#masterContainer {
+	width: $pageMobileWidth;
+	height: 400px;
+	background-color: red;
+}
+
+@media #{$breakpointDesktop} {
+	#masterContainer {
+		width: $pageFullWidth;
+	}
+}

@@ -2,7 +2,23 @@
   width: 400px; }
 
 #headerContainer {
-  width: 400px; }
+  width: 400px;
+  background-color: #52db9d; }
 
 #headerLogoText {
   font-family: "Quicksand", sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+#masterContainer {
+  width: 400px;
+  height: 400px;
+  background-color: red; }
+
+@media (min-width: 768px) {
+  #masterContainer {
+    width: 768px; } }

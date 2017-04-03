@@ -1,4 +1,10 @@
 $pageMobileWidth: 400px;
-$pageFullWidth: 1024px;
+$pageHeight: 720px; //for reference
+$pageFullWidth: 768px;
+
+$breakpointMobile: "(min-width: 300px) and (max-width: 768px)";
+$breakpointDesktop: "(min-width: 768px)";
+
 $headerFont: 'Quicksand', sans-serif;
 $bodyFont: 'Open Sans', sans-serif;
+$primaryColor: #52db9d;
