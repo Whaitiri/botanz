@@ -1,9 +1,11 @@
 #headerContainer {
-	width: $pageMobileWidth;
+	width: 100%;
+	background-color: $primaryColor;
+	height: 80px;
 }
 
 #headerLogo {
-	
+
 }
 
 #headerLogoText {
@@ -11,33 +13,33 @@
 }
 
 #headerLogoImage {
-	
+
 }
 
 #headerBannerContainer {
-	
+
 }
 
 .bannerImageContainer {
-	
+
 }
 
 .headerBannerImage {
-	
+
 }
 
 #headerMenuButton {
-	
+
 }
 
 #headerMenuContainer {
-	
+
 }
 
 #headerMenuList {
-	
+
 }
 
 .headerMenuItem {
-	
+	display: inline;
 }

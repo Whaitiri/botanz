@@ -2,7 +2,16 @@
   width: 400px; }
 
 #headerContainer {
-  width: 400px; }
+  width: 100%;
+  background-color: #52db9d;
+  height: 80px; }
 
 #headerLogoText {
   font-family: "Quicksand", sans-serif; }
+
+.headerMenuItem {
+  display: inline; }
+
+body {
+  margin: 0;
+  padding: 0; }
