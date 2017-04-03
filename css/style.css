@@ -4,10 +4,13 @@
 #headerContainer {
   width: 100%;
   background-color: #52db9d;
-  height: 200px; }
+  height: 80px; }
 
 #headerLogoText {
   font-family: "Quicksand", sans-serif; }
+
+.headerMenuItem {
+  display: inline; }
 
 * {
   margin: 0;
