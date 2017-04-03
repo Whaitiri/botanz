@@ -19,7 +19,9 @@
   text-decoration: none; }
 
 #masterContainer {
-  width: 400px; }
+  width: 400px;
+  color: red; }
   @media (min-width: 768px) {
     #masterContainer {
-      width: 768px; } }
+      width: 768px;
+      color: blue; } }

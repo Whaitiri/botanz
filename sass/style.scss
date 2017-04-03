@@ -12,8 +12,10 @@
 
 #masterContainer {
 	width: $pageMobileWidth;
+	color: red;
 	
 	@include mediaDesktop {
 		width: $pageFullWidth;
+		color: blue;
 	}
 }
