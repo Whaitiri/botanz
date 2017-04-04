@@ -1,7 +1,4 @@
 .eventListContainer {
-<<<<<<< HEAD
-  width: 400px; }
-=======
   background-color: red; }
 
 .eventContainer {
@@ -11,7 +8,6 @@
 
 .eventImage {
   width: 20%; }
->>>>>>> master
 
 #headerContainer {
   width: 100%;
