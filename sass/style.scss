@@ -19,6 +19,7 @@ a {
 	max-width: $pageFullWidth - 1;
 	color: red;
 	margin: 0 auto;
+
 	@include mediaDesktop {
 		min-width: $pageFullWidth;
 	}
