@@ -1,13 +1,29 @@
 .eventListContainer {
-  background-color: red; }
+  background-color: red;
+  width: 100%;
+  height: auto;
+  float: left; }
 
 .eventContainer {
   width: 80%;
-  margin: 0 auto;
-  background-color: blue; }
+  margin: 20px 50px;
+  float: left;
+  clear: both;
+  position: relative; }
 
 .eventImage {
-  width: 20%; }
+  width: 30%;
+  position: relative;
+  float: left; }
+
+.eventImage img {
+  width: 100%; }
+
+.eventContent {
+  width: 60%;
+  float: left;
+  position: relative;
+  margin-left: 10px; }
 
 #headerContainer {
   width: 100%;

@@ -3,6 +3,7 @@
 	background-color: $primaryColor;
 	height: 80px;
 
+
 }
 
 #headerLogoImage {
@@ -13,7 +14,7 @@
 	@include mediaDesktop {
 		margin-left: 30px;
 	}
-}	
+}
 
 #headerBannerContainer {
 	width: $pageMobileWidth;
