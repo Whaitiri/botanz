@@ -16,12 +16,22 @@
 }	
 
 #headerBannerContainer {
-
+	width: $pageMobileWidth;
+	float: left;
 }
 
 .bannerImageContainer {
+	width: $pageMobileWidth;
 
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
 }
+
+.bannerImageContainer img{
+	width: 100%;
+}
+
 
 .headerBannerImage {
 

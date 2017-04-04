@@ -1,5 +1,13 @@
+.eventListContainer {
+  background-color: red; }
+
 .eventContainer {
-  width: 400px; }
+  width: 80%;
+  margin: 0 auto;
+  background-color: blue; }
+
+.eventImage {
+  width: 20%; }
 
 #headerContainer {
   width: 100%;
@@ -14,6 +22,19 @@
   @media (min-width: 768px) {
     #headerLogoImage {
       margin-left: 30px; } }
+
+#headerBannerContainer {
+  width: 400px;
+  float: left; }
+
+.bannerImageContainer {
+  width: 400px; }
+  @media (min-width: 768px) {
+    .bannerImageContainer {
+      width: 768px; } }
+
+.bannerImageContainer img {
+  width: 100%; }
 
 #headerHamburger {
   float: right;

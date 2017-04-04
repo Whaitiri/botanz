@@ -1,8 +1,15 @@
+.eventListContainer{
+	background-color: red;
+}
+
 .eventContainer {
-	width: $pageMobileWidth;
+	width: 80%;
+	margin: 0 auto;
+	background-color: blue;
 }
 
 .eventImage {
+	width: 20%;
     
 }
 
