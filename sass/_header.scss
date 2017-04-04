@@ -1,7 +1,7 @@
 #headerContainer {
 	width: 100%;
 	background-color: $primaryColor;
-	height: 80px;
+	height: $headerContainerHeight;
 
 }
 
@@ -16,22 +16,22 @@
 }	
 
 #headerBannerContainer {
+	height: 200px;
+	position: fixed;
+	margin-top: $headerContainerHeight;
 	width: $pageMobileWidth;
-	float: left;
-}
-
-.bannerImageContainer {
-	width: $pageMobileWidth;
-
 	@include mediaDesktop {
 		width: $pageFullWidth;
 	}
 }
 
-.bannerImageContainer img{
-	width: 100%;
+.bannerImageContainer {
 }
 
+#headerBannerContainer img{
+	width: 100%;
+	height: 400px;	
+}
 
 .headerBannerImage {
 
@@ -55,12 +55,22 @@
 }
 
 #headerMenuContainer {
-
 }
 
 #headerMenuList {
+	width: 100%;
+	max-width: $pageFullWidth;
+	height: 180px;
+	margin-top: $headerContainerHeight;
+	background-color: darken($primaryColor, 5%);
+	display: none;
+	position: fixed;
+	z-index: 1;
 }
 
 .headerMenuItem {
-	display: inline;
+	font-family: $bodyFont;
+	text-align: center;
+	margin-top: 1.5px;
+	padding: 10px 0;
 }

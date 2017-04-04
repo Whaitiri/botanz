@@ -7,7 +7,8 @@
   background-color: blue; }
 
 .eventImage {
-  width: 20%; }
+  width: 20%;
+  display: none; }
 
 footer {
   background-color: #52db9d;
@@ -59,17 +60,17 @@ footer a:hover {
       margin-left: 30px; } }
 
 #headerBannerContainer {
-  width: 400px;
-  float: left; }
-
-.bannerImageContainer {
+  height: 200px;
+  position: fixed;
+  margin-top: 80px;
   width: 400px; }
   @media (min-width: 768px) {
-    .bannerImageContainer {
+    #headerBannerContainer {
       width: 768px; } }
 
-.bannerImageContainer img {
-  width: 100%; }
+#headerBannerContainer img {
+  width: 100%;
+  height: 400px; }
 
 #headerHamburger {
   float: right;
@@ -85,8 +86,21 @@ footer a:hover {
     #headerHamburgerIcon div {
       margin-right: 30px; } }
 
+#headerMenuList {
+  width: 100%;
+  max-width: 768px;
+  height: 180px;
+  margin-top: 80px;
+  background-color: #3dd791;
+  display: none;
+  position: fixed;
+  z-index: 1; }
+
 .headerMenuItem {
-  display: inline; }
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 1.5px;
+  padding: 10px 0; }
 
 * {
   margin: 0;
@@ -105,3 +119,11 @@ a {
   @media (min-width: 768px) {
     #masterContainer {
       min-width: 768px; } }
+
+#contactContainer {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 200px;
+  background-color: red;
+  z-index: 2; }

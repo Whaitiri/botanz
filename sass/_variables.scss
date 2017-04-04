@@ -1,6 +1,7 @@
 $pageMobileWidth: 400px;
 $pageHeight: 720px; //for reference
 $pageFullWidth: 768px;
+$headerContainerHeight: 80px;
 
 @mixin mediaDesktop {
 	@media (min-width: #{$pageFullWidth}) {
