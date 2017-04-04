@@ -6,8 +6,28 @@
   background-color: #52db9d;
   height: 80px; }
 
-#headerLogoText {
-  font-family: "Quicksand", sans-serif; }
+#headerLogoImage {
+  margin-top: 12px;
+  height: 55px;
+  float: left;
+  margin-left: 10px; }
+  @media (min-width: 768px) {
+    #headerLogoImage {
+      margin-left: 30px; } }
+
+#headerHamburger {
+  float: right;
+  margin-top: 20px; }
+
+#headerHamburgerIcon div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  margin-right: 10px; }
+  @media (min-width: 768px) {
+    #headerHamburgerIcon div {
+      margin-right: 30px; } }
 
 .headerMenuItem {
   display: inline; }
@@ -18,10 +38,14 @@
   list-style-type: none;
   text-decoration: none; }
 
+a {
+  color: white; }
+
 #masterContainer {
-  width: 400px;
-  color: red; }
+  min-width: 400px;
+  max-width: 767px;
+  color: red;
+  margin: 0 auto; }
   @media (min-width: 768px) {
     #masterContainer {
-      width: 768px;
-      color: blue; } }
+      min-width: 768px; } }

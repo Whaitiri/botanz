@@ -1,21 +1,19 @@
 #headerContainer {
 	width: 100%;
 	background-color: $primaryColor;
-
 	height: 80px;
-}
 
-#headerLogo {
-
-}
-
-#headerLogoText {
-	font-family: $headerFont;
 }
 
 #headerLogoImage {
-
-}
+	margin-top: 12px;
+	height: 55px;
+	float: left;
+	margin-left: 10px;
+	@include mediaDesktop {
+		margin-left: 30px;
+	}
+}	
 
 #headerBannerContainer {
 
@@ -30,11 +28,20 @@
 }
 
 #headerHamburger {
-
+	float: right;
+	margin-top: 20px;
 }
 
-#headerHamburgerIcon {
+#headerHamburgerIcon div {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+	margin-right: 10px;
 
+	@include mediaDesktop {
+		margin-right: 30px;
+	}
 }
 
 #headerMenuContainer {
@@ -42,7 +49,6 @@
 }
 
 #headerMenuList {
-
 }
 
 .headerMenuItem {

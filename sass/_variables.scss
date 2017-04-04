@@ -8,6 +8,10 @@ $pageFullWidth: 768px;
 	}
 }
 
+@mixin testBorder {
+	border: red 1px solid;
+}
+
 $headerFont: 'Quicksand', sans-serif;
 $bodyFont: 'Open Sans', sans-serif;
 $primaryColor: #52db9d;
