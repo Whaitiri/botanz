@@ -1,8 +1,9 @@
 #headerContainer {
 	width: 100%;
 	background-color: $primaryColor;
-
+	margin: 0 auto;
 	height: 80px;
+	float: left;
 }
 
 #headerLogo {
@@ -18,12 +19,22 @@
 }
 
 #headerBannerContainer {
-
+	width: $pageMobileWidth;
+	float: left;
 }
 
 .bannerImageContainer {
+	width: $pageMobileWidth;
 
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
 }
+
+.bannerImageContainer img{
+	width: 100%;
+}
+
 
 .headerBannerImage {
 
