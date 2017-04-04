@@ -10,12 +10,18 @@
 	text-decoration: none;
 }
 
+a {
+	color: white;
+}
+
 #masterContainer {
-	width: $pageMobileWidth;
+	min-width: $pageMobileWidth;
+	max-width: $pageFullWidth - 1;
 	color: red;
+	margin: 0 auto;
 
 	@include mediaDesktop {
-		width: $pageFullWidth;
-		color: blue;
+		min-width: $pageFullWidth;
 	}
+
 }

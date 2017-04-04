@@ -8,10 +8,8 @@ $pageFullWidth: 768px;
 	}
 }
 
-@mixin mediaMobile {
-	@media (min-width: #{$pageMobileWidth}) and (max-width: #{$pageFullWidth}) {
-		@content;
-	}
+@mixin testBorder {
+	border: red 1px solid;
 }
 
 $headerFont: 'Quicksand', sans-serif;
