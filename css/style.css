@@ -9,6 +9,18 @@
 #headerLogoText {
   font-family: "Quicksand", sans-serif; }
 
+#headerBannerContainer {
+  width: 400px; }
+
+.bannerImageContainer {
+  width: 400px; }
+  @media (min-width: 768px) {
+    .bannerImageContainer {
+      width: 768px; } }
+
+.bannerImageContainer img {
+  width: 100%; }
+
 .headerMenuItem {
   display: inline; }
 

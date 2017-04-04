@@ -1,7 +1,6 @@
 #headerContainer {
 	width: 100%;
 	background-color: $primaryColor;
-
 	height: 80px;
 }
 
@@ -18,11 +17,19 @@
 }
 
 #headerBannerContainer {
-
+    width: $pageMobileWidth;
 }
 
 .bannerImageContainer {
+    width: $pageMobileWidth;
 
+    @include mediaDesktop {
+        width: $pageFullWidth;
+    }
+}
+
+.bannerImageContainer img{
+    width: 100%;
 }
 
 .headerBannerImage {
