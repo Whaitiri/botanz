@@ -1,5 +1,17 @@
 .eventListContainer {
+<<<<<<< HEAD
   width: 400px; }
+=======
+  background-color: red; }
+
+.eventContainer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: blue; }
+
+.eventImage {
+  width: 20%; }
+>>>>>>> master
 
 #headerContainer {
   width: 100%;
@@ -16,7 +28,8 @@
       margin-left: 30px; } }
 
 #headerBannerContainer {
-  width: 400px; }
+  width: 400px;
+  float: left; }
 
 .bannerImageContainer {
   width: 400px; }
