@@ -23,6 +23,7 @@
 	@include mediaDesktop {
 		width: $pageFullWidth;
 	}
+	z-index: -5;
 }
 
 .bannerImageContainer {

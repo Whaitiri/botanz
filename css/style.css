@@ -11,6 +11,8 @@
   display: none; }
 
 footer {
+  position: fixed;
+  bottom: 0px;
   background-color: #52db9d;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
@@ -63,7 +65,8 @@ footer a:hover {
   height: 200px;
   position: fixed;
   margin-top: 80px;
-  width: 400px; }
+  width: 400px;
+  z-index: -5; }
   @media (min-width: 768px) {
     #headerBannerContainer {
       width: 768px; } }
