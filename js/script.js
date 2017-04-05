@@ -2,6 +2,7 @@ $(document).ready(function(){
 	// variables
 	var menuButton = $("#headerHamburger");
 	var menuList = $("#headerMenuContainer");
+	var menuItem = $(".headerMenuItem");
 	var contactButton = $(".contactButton");
 	var contactContainer = $("#contactus-popup");
 	var contactClose = $(".close");
@@ -19,14 +20,17 @@ $(document).ready(function(){
 		}
 	});
 
-	//contact menu show/hide
-	contactButton.click(function(){
-		contactContainer.fadeIn('1000');
-		contactContainer.show('');
+	menuItem.click(function(){
 		if (menuList.is(":visible")) {
 			menuList.fadeOut('1000');
 			menuList.hide('slow');
 		}
+	});
+
+	//contact menu show/hide
+	contactButton.click(function(){
+		contactContainer.fadeIn('1000');
+		contactContainer.show('');
 	});
 
 	contactClose.click(function(){
@@ -54,9 +58,9 @@ function carousel() {
 }
 
 
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
+// $('a').click(function(){
+//     $('html, body').animate({
+//         scrollTop: $( $(this).attr('href') ).offset().top
+//     }, 500);
+//     return false;
+// });
