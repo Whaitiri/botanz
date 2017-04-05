@@ -33,25 +33,41 @@
 }
 
 .popup-content {
-	height: 400px;
+	height: 300px;
 }
 
-.popup-content form {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+// .popup-content form {
 
-	input {
-		float: left;
-		clear:both;
-		padding: 10px;
-		margin: 10px;
-		width: 100%;
-	}
-}
+
+// 	input {
+// 		float: left;
+// 		clear:both;
+// 		padding: 10px;
+// 		margin: 10px;
+// 		width: 100%;
+// 	}
+// }
 
 .popup-content p {
 	float: left;
 	width: 100%;
 	text-align: center;
+    font-family: $bodyFont;
+}
+
+#contactHeader {
+    font-family: $headerFont;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contactForm {
+    width: 100%;
+    text-align: center;
+}
+
+#contactForm input {
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
 }
