@@ -6,12 +6,11 @@
 
 #eventListContainer {
   width: 400px;
-  background-color: #52db9d;
   padding-top: 15px;
   padding-bottom: 15px; }
 
 .eventContainer {
-  width: 80%;
+  width: 90%;
   height: 120px;
   margin: 0 auto;
   background-color: white;
@@ -32,6 +31,23 @@
 .eventTime {
   font-family: "Open Sans", sans-serif; }
 
+#InfoSection {
+  width: 80%;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center; }
+
+button {
+  color: white;
+  background-color: #52db9d;
+  padding: 10px;
+  margin-top: 10px;
+  border: none; }
+
 footer {
   background-color: #52db9d;
   margin: 0 auto;
@@ -39,12 +55,13 @@ footer {
   font-size: 13px;
   color: white;
   width: 400px;
-  height: 80px; }
+  height: 100px; }
   footer a:hover {
     opacity: 0.5; }
 
 #footerContainer {
   width: 80%;
+  padding-top: 20px;
   margin: 0 auto; }
 
 .footerLinksContainer {

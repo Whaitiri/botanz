@@ -1,12 +1,11 @@
 #eventListContainer{
 	width: $pageMobileWidth;
-	background-color: $primaryColor;
 	padding-top: $eventListPadding;
 	padding-bottom: $eventListPadding;
 }
 
 .eventContainer {
-	width: 80%;
+	width: 90%;
 	height: $eventImageHeight;
 	margin: 0 auto;
 	background-color: white;
@@ -31,4 +30,23 @@
 
 .eventTime {
     font-family: $bodyFont;
+}
+
+#InfoSection{
+	width: 80%;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: $bodyFont;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+button{
+	color: white;
+	background-color: $primaryColor;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
 }
