@@ -15,14 +15,9 @@ a {
 }
 
 #masterContainer {
-	min-width: $pageMobileWidth;
-	max-width: $pageFullWidth - 1;
+	width: $pageMobileWidth;
 	color: red;
 	margin: 0 auto;
-
-	@include mediaDesktop {
-		min-width: $pageFullWidth;
-	}
 
 }
 
