@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name=“viewport” content=“width=400, initial-scale=1">
+	<meta name="viewport" content="width=400, initial-scale=1">
 
 	<title>Events - Wellington Botanic Gardens</title>
 
@@ -14,7 +14,19 @@
 <body>
 <div id="masterContainer">
 
-	<div id="contactContainer"></div>
+	<div class="popup" id="contactus-popup">
+		<div class="popup-content">
+			<span class="close">&times;</span>
+			<h1>Contact Us</h1>
+			<form class="" action="" method="post">
+				<input type="Name" name="name" placeholder="Your Name">
+				<input type="Email" name="email" placeholder="Your Email">
+				<input type="Message" name="message" placeholder="Your Message">
+				<input class="submit-btn" type="submit" value="Submit">
+			</form>
+			<p>Random text for a random submit message</p>
+		</div>
+	</div>
 
 	<header id="headerContainer">
 			<img id="headerLogoImage" src="img/logoBotanz.png" />
@@ -32,14 +44,15 @@
 			<li class="headerMenuItem"><a href="#events">Events</a></li>
 			<li class="headerMenuItem"><a href="#info">More Info</a></li>
 			<li class="headerMenuItem"><a href="#map">Map</a></li>
-			<li class="headerMenuItem contactButton"><a href="#contact">Contact Us</a></li>
+			<li class="headerMenuItem contactButton"><a href="#">Contact Us</a></li>
 		</ul>
 	</div>
 
 	<div id="headerBannerContainer">
-		<img class="headerBannerImage" src="img/gardenimage1.jpg">
+		<img class="slide headerBannerImage" src="img/gardenimage1.jpg" alt="First Image">
+		<img class="slide headerBannerImage" src="img/gardenimage2.jpg" alt="Second Image">
 	</div>
-	
+
 	<div id="eventListContainer">
 		<h2 id="eventListHeader">UPCOMING EVENTS</h2>
 		<div class="eventContainer">
@@ -81,13 +94,12 @@
 				<li><a href="#top">Back to Top</a></li>
 				<li><a href="#eventContainer">Events</a></li>
 				<li><a href="#">More Info</a></li>
-				<li class="contactButton"><a href="
-				#">Contact</a></li>
+				<li class="contactButton"><a href="#">Contact</a></li>
 			</ul>
 			</div>
 			<div class="footerIcons">
 				<a href="#"><img src="img/facebook.png"></a>
-				<a href="#"><img src="img/instagram.png"></a> 
+				<a href="#"><img src="img/instagram.png"></a>
 				<a href="#"><img src="img/twitter.png"></a>
 			</div>
 		</div>
@@ -96,7 +108,7 @@
 </div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-	
+
 	<script type="text/javascript" src="js/script.js"></script>
 
 </body>

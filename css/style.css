@@ -138,7 +138,7 @@ footer {
 #headerMenuContainer {
   height: 180px;
   width: 400px;
-  position: fixed;
+  position: absolute;
   display: none; }
 
 #headerMenuList {
@@ -153,6 +153,55 @@ footer {
   padding: 10px 0; }
   .headerMenuItem a:hover {
     opacity: 0.5; }
+
+/* The Modal (background) */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; }
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
+
+.popup-content {
+  height: 400px; }
+
+.popup-content form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+  .popup-content form input {
+    float: left;
+    clear: both;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+
+.popup-content p {
+  float: left;
+  width: 100%;
+  text-align: center; }
 
 a {
   color: white; }
