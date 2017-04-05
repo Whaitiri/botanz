@@ -1,27 +1,33 @@
-.eventListContainer{
-	background-color: red;
+#eventListContainer{
+	width: $pageMobileWidth;
+	background-color: $primaryColor;
+	padding-top: $eventListPadding;
+	padding-bottom: $eventListPadding;
 }
 
 .eventContainer {
-	width: $pageMobileWidth;
+	width: 80%;
+	height: $eventImageHeight;
 	margin: 0 auto;
-	background-color: blue;
+	background-color: white;
+	margin-bottom: 10px; //spaces the containers
 }
 
 .eventImage {
-	width: 20%;
-	display: none;
-    
+	width: 125px;
+	height: $eventImageHeight;
+	margin-right: 5px; //for the text
+	float: left;
 }
 
 .eventHeader{
-    
+    font-family: $headerFont;
 }
 
 .eventDesc {
-    
+    font-family: $bodyFont;
 }
 
 .eventTime {
-    
+    font-family: $bodyFont;
 }

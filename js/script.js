@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	// variables
 	var menuButton = $("#headerHamburger");
-	var menuList = $("#headerMenuList");
+	var menuList = $("#headerMenuContainer");
 	var contactButton = $(".contactButton");
 	var contactContainer = $("#contactContainer");
 

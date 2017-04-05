@@ -6,16 +6,14 @@ footer{
 	color: white;
 	width: $pageMobileWidth;
 	height: 80px;
-}
-
-footer a:hover{
-	opacity: 0.5;
+	a:hover {
+		opacity: 0.5;
+	}
 }
 
 #footerContainer{
 	width: 80%;
 	margin: 0 auto;
-	margin-top: 10px;
 }
 
 .footerLinksContainer{
