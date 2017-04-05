@@ -5,7 +5,7 @@ footer{
 	font-size: 13px;
 	color: white;
 	width: $pageMobileWidth;
-	height: 80px;
+	height: $headerContainerHeight;
 	a:hover {
 		opacity: 0.5;
 	}
@@ -30,8 +30,7 @@ footer{
 .footerIcons{
 	padding-top: 8px;
 	margin: 0 auto;
-	width: 160px;
-}
+	width: 40%}
 
 .footerIcons img{
 	width: 23%;
