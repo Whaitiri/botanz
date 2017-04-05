@@ -4,6 +4,13 @@
 	padding-bottom: $eventListPadding;
 }
 
+#eventListHeader{
+	font-family: $headerFont;
+	color: $primaryColor;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .eventContainer {
 	width: 90%;
 	height: $eventImageHeight;
@@ -15,37 +22,51 @@
 .eventImage {
 	width: 125px;
 	height: $eventImageHeight;
-	margin-right: 5px; //for the text
+	margin-right: 14px; //for the text
 	float: left;
 
 }
 
 .eventHeader{
     font-family: $headerFont;
+    color: $bodyFontColor;
+    font-size: 17px;
+	font-weight: 700;
 }
 
 .eventDesc {
     font-family: $bodyFont;
+    color: $bodyFontColor;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 7px;
 }
 
 .eventTime {
     font-family: $bodyFont;
+    color: $bodyFontColor;
+    font-size: 12px;
+    margin-top: 7px;
+
 }
 
-#InfoSection{
+#infoSection{
 	width: 80%;
+	line-height: 18px;
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: $bodyFont;
-	font-size: 12px;
+	font-size: 14px;
 	margin: 0 auto;
 	text-align: center;
+	color: $bodyFontColor;
 }
 
-button{
+.buttonInfo{
 	color: white;
 	background-color: $primaryColor;
+	font-family: $headerFont;
 	padding: 10px;
 	margin-top: 10px;
 	border: none;
