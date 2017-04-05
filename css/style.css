@@ -15,7 +15,7 @@
   height: 120px;
   margin: 0 auto;
   background-color: white;
-  margin-bottom: 10px; }
+  margin-bottom: 8px; }
 
 .eventImage {
   width: 125px;
@@ -116,8 +116,6 @@ footer {
   margin-top: 1.5px;
   padding: 10px 0; }
   .headerMenuItem a:hover {
-    opacity: 0.5; }
-  .headerMenuItem button:hover {
     opacity: 0.5; }
 
 a {
