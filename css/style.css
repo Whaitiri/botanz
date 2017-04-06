@@ -8,6 +8,14 @@
   width: 400px;
   padding-top: 15px;
   padding-bottom: 15px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #eventListContainer {
+      padding-top: 115px;
+      width: 768px; } }
+  @media (min-width: 1024px) {
+    #eventListContainer {
+      padding-top: 215px;
+      width: 1024px; } }
 
 #eventListHeader {
   font-family: "Quicksand", sans-serif;
@@ -21,6 +29,14 @@
   margin: 0 auto;
   background-color: white;
   margin-bottom: 8px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .eventContainer {
+      float: left;
+      width: 50%; } }
+  @media (min-width: 1024px) {
+    .eventContainer {
+      float: left;
+      width: 50%; } }
 
 .eventImage {
   width: 125px;
@@ -48,6 +64,7 @@
   margin-top: 7px; }
 
 #infoSection {
+  clear: both;
   width: 80%;
   line-height: 18px;
   color: black;
@@ -77,6 +94,12 @@ footer {
   height: 100px; }
   footer a:hover {
     opacity: 0.5; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+      width: 768px; } }
+  @media (min-width: 1024px) {
+    footer {
+      width: 1024px; } }
 
 #footerContainer {
   width: 80%;
@@ -84,7 +107,8 @@ footer {
   margin: 0 auto; }
 
 .footerLinksContainer {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .footerLinksContainer ul li {
   display: inline-block;
@@ -93,11 +117,10 @@ footer {
 
 .footerIcons {
   padding-top: 8px;
-  margin: 0 auto;
-  width: 40%; }
+  text-align: center; }
 
 .footerIcons img {
-  width: 23%;
+  width: 40px;
   margin-left: 5px;
   margin-right: 5px; }
 
@@ -106,6 +129,12 @@ footer {
   background-color: #52db9d;
   height: 80px;
   position: fixed; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #headerContainer {
+      width: 768px; } }
+  @media (min-width: 1024px) {
+    #headerContainer {
+      width: 1024px; } }
 
 #headerLogoImage {
   margin-top: 12px;
@@ -122,6 +151,14 @@ footer {
 .headerBannerImage {
   width: 400px;
   height: 200px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .headerBannerImage {
+      width: 768px;
+      height: 300px; } }
+  @media (min-width: 1024px) {
+    .headerBannerImage {
+      width: 1024px;
+      height: 400px; } }
 
 #headerHamburger {
   float: right;
@@ -143,6 +180,14 @@ footer {
   position: fixed;
   display: none;
   margin-top: 80px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #headerMenuContainer {
+      width: 150px;
+      margin-left: 618px; } }
+  @media (min-width: 1024px) {
+    #headerMenuContainer {
+      width: 150px;
+      margin-left: 874px; } }
 
 #headerMenuList {
   background-color: #3dd791;
@@ -216,6 +261,12 @@ a {
 #masterContainer {
   width: 400px;
   margin: 0 auto; }
+  @media (min-width: 1024px) {
+    #masterContainer {
+      width: 1024px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #masterContainer {
+      width: 768px; } }
 
 #contactContainer {
   display: none;

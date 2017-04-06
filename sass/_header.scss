@@ -3,6 +3,15 @@
 	background-color: $primaryColor;
 	height: $headerContainerHeight;
 	position: fixed;
+
+	@include mediaTablet {
+		width: $pageTabletWidth;
+	}
+
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
+
 }
 //Logo Styles
 #headerLogoImage {
@@ -24,6 +33,16 @@
 .headerBannerImage {
 	width: $pageMobileWidth;
 	height: $slideshowImageHeight;
+
+	@include mediaTablet {
+		width: $pageTabletWidth;
+		height: $slideshowImageHeight * 1.5;
+	}
+
+	@include mediaDesktop {
+		width: $pageFullWidth;
+		height: $slideshowImageHeight * 2;
+	}
 }
 
 //Menu Styles
@@ -50,6 +69,17 @@
 	position: fixed;
 	display: none;
 	margin-top: $headerContainerHeight;
+
+	@include mediaTablet {
+		width: $menuWidthResponsive;
+		margin-left: $pageTabletWidth - $menuWidthResponsive
+	}
+
+	@include mediaDesktop {
+		width: $menuWidthResponsive;
+		margin-left: $pageFullWidth - $menuWidthResponsive
+	}
+
 }
 
 #headerMenuList {

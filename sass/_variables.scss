@@ -1,7 +1,10 @@
 $pageMobileWidth: 400px;
 $pageHeight: 720px; //for reference
-$pageFullWidth: 768px;
+$pageTabletWidth: 768px;
+$pageFullWidth: 1024px;
 $headerContainerHeight: 80px;
+
+$menuWidthResponsive: 150px;
 
 $headerLogoMargin: 15px; //for logo and hamburger
 
@@ -10,11 +13,19 @@ $eventListPadding: 15px; //for padding the entire container
 $slideshowImageHeight: 200px; //image container and image both need static height, or it adds pixels
 $eventImageHeight: 120px; //same as above
 
+@mixin mediaTablet {
+	@media (min-width: #{$pageTabletWidth}) and (max-width: #{$pageFullWidth}) {
+		@content;
+	}
+}
+
 @mixin mediaDesktop {
 	@media (min-width: #{$pageFullWidth}) {
 		@content;
 	}
 }
+
+
 
 @mixin testBorder {
 	border: red 1px solid;

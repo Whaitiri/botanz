@@ -19,6 +19,14 @@ a {
 	width: $pageMobileWidth;
 	margin: 0 auto;
 
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
+
+	@include mediaTablet {
+		width: $pageTabletWidth;
+	}
+
 }
 
 .contactButton {

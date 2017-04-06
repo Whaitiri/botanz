@@ -2,6 +2,16 @@
 	width: $pageMobileWidth;
 	padding-top: $eventListPadding;
 	padding-bottom: $eventListPadding;
+
+	@include mediaTablet {
+		padding-top: 115px;
+		width: $pageTabletWidth;
+	}
+
+	@include mediaDesktop {
+		padding-top: 215px;
+		width: $pageFullWidth;
+	}
 }
 
 #eventListHeader{
@@ -17,6 +27,17 @@
 	margin: 0 auto;
 	background-color: white;
 	margin-bottom: 8px; //spaces the containers
+	@include mediaTablet {
+		float: left;
+		width: 50%;
+	}
+
+	@include mediaDesktop {
+		float: left;
+		width: 50%;
+
+	}
+
 }
 
 .eventImage {
@@ -51,6 +72,7 @@
 }
 
 #infoSection{
+	clear: both;
 	width: 80%;
 	line-height: 18px;
 	color: black;

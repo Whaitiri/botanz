@@ -9,6 +9,15 @@ footer{
 	a:hover {
 		opacity: 0.5;
 	}
+
+	@include mediaTablet {
+		width: $pageTabletWidth;
+	}
+
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
+
 }
 
 #footerContainer{
@@ -19,6 +28,7 @@ footer{
 
 .footerLinksContainer{
 	margin: 0 auto;
+	text-align: center;
 }
 
 .footerLinksContainer ul li {
@@ -30,11 +40,12 @@ footer{
 
 .footerIcons{
 	padding-top: 8px;
-	margin: 0 auto;
-	width: 40%}
+	text-align: center;
+
+}
 
 .footerIcons img{
-	width: 23%;
+	width: 40px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
+	}
