@@ -140,8 +140,9 @@ footer {
 #headerMenuContainer {
   height: 180px;
   width: 400px;
-  position: absolute;
-  display: none; }
+  position: fixed;
+  display: none;
+  margin-top: 80px; }
 
 #headerMenuList {
   background-color: #3dd791;

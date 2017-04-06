@@ -47,8 +47,9 @@
 #headerMenuContainer {
 	height: 180px;
 	width: $pageMobileWidth;
-	position: absolute;
+	position: fixed;
 	display: none;
+	margin-top: $headerContainerHeight;
 }
 
 #headerMenuList {
