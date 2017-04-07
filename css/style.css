@@ -133,7 +133,8 @@ footer {
 #footerContainer {
   width: 400px;
   padding-top: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   @media (min-width: 768px) and (max-width: 1024px) {
     #footerContainer {
       width: 768px; } }
@@ -158,6 +159,9 @@ footer {
   width: 40px;
   margin-left: 5px;
   margin-right: 5px; }
+
+#footerDisclaimer {
+  font-size: 0.69em; }
 
 #headerContainer {
   width: 100%;

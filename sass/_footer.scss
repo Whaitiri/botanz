@@ -23,10 +23,12 @@ footer{
 	}
 	padding-top: 20px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .footerLinksContainer{
 	margin: 0 auto;
+
 	text-align: center;
 }
 
@@ -48,3 +50,7 @@ footer{
 	margin-left: 5px;
 	margin-right: 5px;
 	}
+
+#footerDisclaimer {
+	font-size: 0.69em;
+}
