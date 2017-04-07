@@ -119,6 +119,13 @@ a {
   margin-top: 10px;
   border: none; }
 
+#maps {
+  height: 300px;
+  margin-bottom: 20px; }
+  @media (min-width: 1024px) {
+    #maps {
+      height: 500px; } }
+
 footer {
   background-color: #52db9d;
   margin: 0 auto;

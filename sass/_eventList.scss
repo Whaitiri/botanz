@@ -108,3 +108,11 @@
 	margin-top: 10px;
 	border: none;
 }
+
+#maps {
+	height: 300px;
+	margin-bottom: 20px;
+	@include mediaDesktop {
+		height: 500px;
+	}
+}
