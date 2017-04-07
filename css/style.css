@@ -1,277 +1,59 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none; }
+/*
+Error: It's not clear which file to import for '@import "contact"'.
+       Candidates:
+         _contact.scss
+         contact.scss
+       Please delete or rename all but one of these files.
+        on line 12 of C:\Users\DESKTUT\Desktop\sites\botanz\sass\style.scss
 
-#eventListContainer {
-  width: 400px;
-  padding-top: 15px;
-  padding-bottom: 15px; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    #eventListContainer {
-      padding-top: 115px;
-      width: 768px; } }
-  @media (min-width: 1024px) {
-    #eventListContainer {
-      padding-top: 215px;
-      width: 1024px; } }
+7: 
+8: @import 'variables';
+9: @import 'eventList';
+10: @import 'footer';
+11: @import 'header';
+12: @import 'contact';
+13: 
+14: a {
+15: 	color: white;
+16: }
+17: 
 
-#eventListHeader {
-  font-family: "Quicksand", sans-serif;
-  color: #52db9d;
-  text-align: center;
-  margin-bottom: 20px; }
-
-.eventContainer {
-  width: 90%;
-  height: 120px;
-  margin: 0 auto;
-  background-color: white;
-  margin-bottom: 8px; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .eventContainer {
-      float: left;
-      width: 50%; } }
-  @media (min-width: 1024px) {
-    .eventContainer {
-      float: left;
-      width: 50%; } }
-
-.eventImage {
-  width: 125px;
-  height: 120px;
-  margin-right: 14px;
-  float: left; }
-
-.eventHeader {
-  font-family: "Quicksand", sans-serif;
-  color: #333333;
-  font-size: 17px;
-  font-weight: 700; }
-
-.eventDesc {
-  font-family: "Open Sans", sans-serif;
-  color: #333333;
-  font-size: 12px;
-  line-height: 15px;
-  margin-top: 7px; }
-
-.eventTime {
-  font-family: "Open Sans", sans-serif;
-  color: #333333;
-  font-size: 12px;
-  margin-top: 7px; }
-
-#infoSection {
-  clear: both;
-  width: 80%;
-  line-height: 18px;
-  color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  margin: 0 auto;
-  text-align: center;
-  color: #333333; }
-
-.buttonInfo {
-  color: white;
-  background-color: #52db9d;
-  font-family: "Quicksand", sans-serif;
-  padding: 10px;
-  margin-top: 10px;
-  border: none; }
-
-footer {
-  background-color: #52db9d;
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  color: white;
-  width: 400px;
-  height: 100px; }
-  footer a:hover {
-    opacity: 0.5; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    footer {
-      width: 768px; } }
-  @media (min-width: 1024px) {
-    footer {
-      width: 1024px; } }
-
-#footerContainer {
-  width: 80%;
-  padding-top: 20px;
-  margin: 0 auto; }
-
-.footerLinksContainer {
-  margin: 0 auto;
-  text-align: center; }
-
-.footerLinksContainer ul li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.footerIcons {
-  padding-top: 8px;
-  text-align: center; }
-
-.footerIcons img {
-  width: 40px;
-  margin-left: 5px;
-  margin-right: 5px; }
-
-#headerContainer {
-  width: 400px;
-  background-color: #52db9d;
-  height: 80px;
-  position: fixed; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    #headerContainer {
-      width: 768px; } }
-  @media (min-width: 1024px) {
-    #headerContainer {
-      width: 1024px; } }
-
-#headerLogoImage {
-  margin-top: 12px;
-  height: 55px;
-  margin-left: 15px; }
-
-#headerLogoImage:hover {
-  opacity: 0.5; }
-
-#headerBannerContainer {
-  height: 200px;
-  padding-top: 80px; }
-
-.headerBannerImage {
-  width: 400px;
-  height: 200px; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .headerBannerImage {
-      width: 768px;
-      height: 300px; } }
-  @media (min-width: 1024px) {
-    .headerBannerImage {
-      width: 1024px;
-      height: 400px; } }
-
-#headerHamburger {
-  float: right;
-  margin-top: 20px; }
-
-#headerHamburger:hover {
-  opacity: 0.5; }
-
-#headerHamburgerIcon div {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  margin-right: 15px; }
-
-#headerMenuContainer {
-  height: 180px;
-  width: 400px;
-  position: fixed;
-  display: none;
-  margin-top: 80px; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    #headerMenuContainer {
-      width: 150px;
-      margin-left: 618px; } }
-  @media (min-width: 1024px) {
-    #headerMenuContainer {
-      width: 150px;
-      margin-left: 874px; } }
-
-#headerMenuList {
-  background-color: #3dd791;
-  z-index: 1;
-  padding-top: 1px; }
-
-.headerMenuItem {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin-top: 1.5px;
-  padding: 10px 0; }
-  .headerMenuItem a:hover {
-    opacity: 0.5; }
-
-/* The Modal (background) */
-.popup {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  width: 400px;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.4); }
-
-.popup-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; }
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer; }
-
-.popup-content {
-  height: 300px; }
-
-.popup-content p {
-  float: left;
-  width: 100%;
-  text-align: center;
-  font-family: "Open Sans", sans-serif; }
-
-#contactHeader {
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  margin-bottom: 20px; }
-
-#contactForm {
-  width: 100%;
-  text-align: center; }
-
-#contactForm input {
-  width: 80%;
-  padding: 10px 10px 10px 10px;
-  margin-bottom: 10px; }
-
-a {
-  color: white; }
-
-#masterContainer {
-  width: 400px;
-  margin: 0 auto; }
-  @media (min-width: 1024px) {
-    #masterContainer {
-      width: 1024px; } }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    #masterContainer {
-      width: 768px; } }
-
-#contactContainer {
-  display: none;
-  position: fixed;
-  height: 500px;
-  width: 200px;
-  background-color: red;
-  z-index: 2; }
+Backtrace:
+C:\Users\DESKTUT\Desktop\sites\botanz\sass\style.scss:12
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: It's not clear which file to import for '@import \"contact\"'.\A        Candidates:\A          _contact.scss\A          contact.scss\A        Please delete or rename all but one of these files.\A         on line 12 of C:\Users\DESKTUT\Desktop\sites\botanz\sass\style.scss\A \A 7: \A 8: @import 'variables';\A 9: @import 'eventList';\A 10: @import 'footer';\A 11: @import 'header';\A 12: @import 'contact';\A 13: \A 14: a {\A 15: 	color: white;\A 16: }\A 17: "; }
