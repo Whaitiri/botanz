@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,30 +7,32 @@
 	text-decoration: none;
 }
 
-@import 'variables';
-@import 'eventList';
-@import 'footer';
-@import 'header';
-@import 'contact';
+body {
+
+	min-width: $pageMobileWidth;
+	max-width: $pageTabletWidth - 1;
+	margin: 0 auto;
+
+	@include mediaTablet {
+		min-width: $pageTabletWidth;
+		max-width: 100%;
+	}
+
+	@include mediaDesktop {
+		min-width: $pageFullWidth;
+		max-width: 100%;
+
+	}
+}
 
 a {
 	color: white;
 }
 
 #masterContainer {
-	width: $pageMobileWidth;
-	margin: 0 auto;
 
-	@include mediaDesktop {
-		width: $pageFullWidth;
-	}
-
-	@include mediaTablet {
-		width: $pageTabletWidth;
-	}
 
 }
-
 .contactButton {
 
 }
@@ -41,3 +45,8 @@ a {
 	background-color: red;
 	z-index: 2;
 }
+
+@import 'eventList';
+@import 'footer';
+@import 'header';
+@import 'contact';

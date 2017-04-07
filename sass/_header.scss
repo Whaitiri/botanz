@@ -1,8 +1,13 @@
 #headerContainer {
-	width: $pageMobileWidth;
+	width: 100%;
 	background-color: $primaryColor;
 	height: $headerContainerHeight;
 	position: fixed;
+}
+
+#headerContent {
+	margin: 0 auto;
+	width: $pageMobileWidth;
 
 	@include mediaTablet {
 		width: $pageTabletWidth;
@@ -11,7 +16,6 @@
 	@include mediaDesktop {
 		width: $pageFullWidth;
 	}
-
 }
 //Logo Styles
 #headerLogoImage {
@@ -25,14 +29,16 @@
 }
 
 //Banner (Slideshow) Styles
-#headerBannerContainer {
+#headerBannerContainer {	
 	height: $slideshowImageHeight;
 	padding-top: $headerContainerHeight;
+	margin: 0 auto;
 }
 
 .headerBannerImage {
-	width: $pageMobileWidth;
+
 	height: $slideshowImageHeight;
+	margin: 0 auto;
 
 	@include mediaTablet {
 		width: $pageTabletWidth;

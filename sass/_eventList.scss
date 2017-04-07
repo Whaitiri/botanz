@@ -2,6 +2,7 @@
 	width: $pageMobileWidth;
 	padding-top: $eventListPadding;
 	padding-bottom: $eventListPadding;
+	margin: 0 auto;
 
 	@include mediaTablet {
 		padding-top: 115px;
@@ -71,12 +72,26 @@
 
 }
 
-#infoSection{
+#infoContainer {
 	clear: both;
+	margin: 0 auto;
+	width: $pageMobileWidth;
+
+	@include mediaTablet {
+		width: $pageTabletWidth;
+	}
+
+	@include mediaDesktop {
+		width: $pageFullWidth;
+	}
+}
+
+#infoSection {
+	
 	width: 80%;
 	line-height: 18px;
 	color: black;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 	font-family: $bodyFont;
 	font-size: 14px;
