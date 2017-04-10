@@ -29,7 +29,7 @@
 }
 
 //Banner (Slideshow) Styles
-#headerBannerContainer {	
+#headerBannerContainer {
 	height: $slideshowImageHeight;
 	padding-top: $headerContainerHeight;
 	margin: 0 auto;
@@ -71,19 +71,17 @@
 
 #headerMenuContainer {
 	height: 180px;
-	width: $pageMobileWidth;
+	width: 100%;
 	position: fixed;
 	display: none;
 	margin-top: $headerContainerHeight;
 
 	@include mediaTablet {
 		width: $menuWidthResponsive;
-		margin-left: $pageTabletWidth - $menuWidthResponsive
 	}
 
 	@include mediaDesktop {
 		width: $menuWidthResponsive;
-		margin-left: $pageFullWidth - $menuWidthResponsive
 	}
 
 }

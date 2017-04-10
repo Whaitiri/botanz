@@ -227,18 +227,16 @@ footer {
 
 #headerMenuContainer {
   height: 180px;
-  width: 400px;
+  width: 100%;
   position: fixed;
   display: none;
   margin-top: 80px; }
   @media (min-width: 768px) and (max-width: 1024px) {
     #headerMenuContainer {
-      width: 150px;
-      margin-left: 618px; } }
+      width: 100%; } }
   @media (min-width: 1024px) {
     #headerMenuContainer {
-      width: 150px;
-      margin-left: 874px; } }
+      width: 100%; } }
 
 #headerMenuList {
   background-color: #3dd791;
@@ -258,7 +256,7 @@ footer {
   display: none;
   position: fixed;
   z-index: 999;
-  width: 400px;
+  width: 100%;
   height: 100%;
   overflow: auto;
   background-color: black;
